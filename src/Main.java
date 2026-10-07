@@ -1,4 +1,3 @@
-import java.util.Scanner;
 
 public class Main
 {
@@ -6,10 +5,14 @@ public class Main
     public static void main(String[] args)
     {
 
-        Scanner scanner = new Scanner(System.in);
-        for (int i =10; i >= 0; i-= 2)
+        for (int row = 1; row <=5; row ++)
         {
-            System.out.print(i + " ");
+            for (int col = 1; col <=5; col ++)
+            {
+                System.out.printf("* ");
+            }
+            System.out.printf("\n");
+
         }
     }
 }
