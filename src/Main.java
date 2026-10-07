@@ -7,7 +7,7 @@ public class Main
 
         for (int row = 1; row <=5; row ++)
         {
-            for (int col = 1; col <=5; col ++)
+            for (int col = 1; col <=row; col ++)
             {
                 System.out.printf("* ");
             }
